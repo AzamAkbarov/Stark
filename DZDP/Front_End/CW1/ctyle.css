@@ -1,0 +1,135 @@
+
+
+footer{
+    background: #141314 url(https://pubg.cdn.gmru.net/static/images/common/footer-line.png) no-repeat center 0;
+    padding: 70px 1% 55px;
+    box-sizing: border-box;
+    cursor: default;
+    
+   
+}
+.footer_div{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    line-height: 30px;
+    font-size: 15px;
+}
+.copyright_line a, .copyright_line span {
+    color: #f1f1f1;
+}
+.copyright_item {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px 0 0;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.logo-white {
+    display: block;
+}
+div.text-justify {
+    text-align: justify;
+    font-size: 1px;
+    line-height: 0;
+    width: 100%;
+}
+
+.top-line {
+    margin: 0;
+}
+.top-line .top-line__menu, .top-line .top-line__soc {
+    font-size: 12px;
+}
+
+.video-block {
+    margin: 0 0 90px;
+}
+.b-line {
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 66px;
+    background: url(https://pubg.cdn.gmru.net/static/images/common/pattern-b.png) repeat-x center 0;
+}
+.top-banner__info {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin: 3% 0 0;
+  
+    text-align: center;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-70%);
+    z-index: 2;
+}
+.top-banner__info h2 {
+    color: #fff;
+    margin: 0 0 2%;
+    text-align: center;
+}
+.top-nav__inner {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.flex--middle {
+    -ms-flex-align: center;
+    align-items: center;
+}
+.flex, .flex__item.flex {
+    display: -ms-flexbox;
+    display: flex;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.features {
+    position: relative;
+    background: #1e1d1f;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+.nav-item{
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(225, 225, 233);
+    font-size: 20px;
+    font-family: arial;
+    margin-left: 20px;
+}
+.img2{
+    margin: 30px;
+    padding-top: 50px;
+    margin-left: 235px;
+    background: #141314 url(https://pubg.cdn.gmru.net/static/images/common/footer-line.png) no-repeat center 0;
+    padding: 60px 1% 65px;
+    
+    
+}
+.right_1{
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    height: 125px;
+}
+

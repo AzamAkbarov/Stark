@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOT</title>
+    <link rel="stylesheet" href="style_2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="aa.png" width="100px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" id="home" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  HW
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">HW1</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">HW2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">HW3</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">HW4</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">HW5</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">HW6</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">HW7</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">HW8</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">HW9</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">HW10</a></li>
+                  <li><hr class="dropdown-divider"></li>
+
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <script>
+        var nav = document.querySelector('nav');
+        
+       
+       
+        window.addEventListener('scroll', function(){
+          if(window.pageYOffset > 100){
+            nav.classList.add('bg-dark', 'shadow');
+          }else{
+            nav.classList.remove('bg-dark', 'shadow');
+          }
+        });
+        
+      </script>
+    
+      
+    
+  
+
+    
+    <div classc="container">
+        <h1 id="hh1" class="div_4 ">This is my first bootstrap</h1>
+    </div>
+<div class="container-fluid bg-danger">
+    
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class = "col bg-info m-2 div_1" >
+            <center>
+                <h3 id="h33" class="title"> Uzbekistan</h3>
+                <img src="11.png">
+                <p class="text_3"> Узбекистан – страна в Центральной Азии, которая некогда входила в состав СССР. Она славится своими мечетями, мавзолеями и сооружениями, возведенными на Великом шелковом пути – древней торговой дороге между Китаем и Средиземноморьем</p>
+                <a href="https://t.me/Akbarovazam"> <img src="G.png"  width="100" height="100" alt="foto"  style="border-radius:200px"  border="3" align="right"> </a>
+            </center>
+            <button  type="button" id="btn1" class="btn_1" onclick="window.location.href='https://tiue.uz/'"> Website</button>
+          
+
+        
+
+
+</div >
+    <div  class = "col bg-info m-2 div_2">
+        <center>
+            <h3 id ="h35" class="title" > Tajikistan</h3>
+            <img src="33.jpg " width="320px" height="170px">
+            <p class="text_1">Таджикистан – это страна в Центральной Азии, граничащая с Афганистаном, Китаем, Кыргызстаном и Узбекистаном. Горный ландшафт привлекает сюда любителей альпинизма и пешего туризма</p>
+            <a href="https://t.me/Akbarovazam"> <img src="tg.jpg" width="100" height="100" alt="foto" style="border-radius:200px" border="3" align="right"> </a>
+        </center>
+        <button  type="button" id="btn2"  class="btn_1"  onclick="window.location.href='https://tiue.uz/'"> Website</button>
+
+
+
+</div>
+    <div class = "col bg-info m-2 div_3">
+    <center>
+        <h3 id="h36" class="title"> Kazakhstan</h3>
+        <img src="22.png">
+        <p class="text_2">Казахстан – государство в Центральной Азии, которое раньше входило в состав СССР. Оно простирается от Каспийского моря на западе до Алтайских гор на востоке, где проходит граница с Китаем и Россией.</p>
+        <a href="https://t.me/Akbarovazam"> <img src="qg.jpg" width="100" height="100" alt="foto" style="border-radius:200px" border="3" align="right"> </a>
+    </center>
+    <button  type="button" id="btn3" class="btn_1" onclick="window.location.href='https://tiue.uz/'"> Website</button>
+
+</div>
+<footer>
+  <div class="container footer_div">
+  
+      <div class="left">
+          <p><a class="link" href="https://www.tesla.com/">IT Gigants © 2022
+              Privacy & Legal
+              Contact
+              Careers
+              News
+              Engage
+              Locations </a></p>
+          <p><a class="link" href="mailto:azamakbarov81@gmail.com">azamakbarov81@gmail.com</a></p>
+      </div>
+  
+      <div class="right">
+          <p><a class="link" href="https://www.tesla.com/">TESLA <img style="width: 20px; padding-left: 5px;" ></a></p>
+          <p><a class="link" href="https://www.youtube.com/">YOUTUBE <img style="width: 30px; padding-left: 5px;" ></a></p>
+          <p><a class="link" href="https://ru-ru.facebook.com/">FACEBOOK <img style="width: 20px; padding-left: 5px;" ></a></p>
+          <p><a class="link" href="https://www.google.ru/">Apple <img style="width: 20px; padding-left: 5px;" ></a></p>
+      </div>
+  
+  
+  </div>
+  </footer>
+  
+
+
+
+
+    
+</body>
+</html>
