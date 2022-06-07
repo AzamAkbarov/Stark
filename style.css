@@ -1,4 +1,4 @@
-/*===== Google Fonts =====*/
+/*===== Google Shrift =====*/
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 /*===== Global CSS =====*/
 html
@@ -176,7 +176,7 @@ img
 {
     display: inline-block;
     position: relative;
-    margin-left: 36px;
+    margin-left: 30px;
 }
 .navbar .menu .nav-item .nav-link
 {
@@ -445,6 +445,7 @@ img
     background-color: rgba(33,243,26,0.11);
     position: relative;
 }
+/* bar dvij*/
 .skill-item .skill-bar .bar-inner .progress-line
 {
     position: absolute;
@@ -467,7 +468,7 @@ img
     top: -7px;
     right: 0;
 }
-/*===== Services =====*/
+/*===== Навыки =====*/
 .service-section
 {
     min-height: 100vh;
